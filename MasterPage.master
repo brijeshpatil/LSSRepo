@@ -1,0 +1,83 @@
+﻿<%@ master language="VB" inherits="MasterPage, App_Web_0kx1wqtn" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+    </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="header">
+        
+		<a href="Home.aspx" class="logo"><img src="images/title.png" alt=""/></a>
+		
+        <ul>
+			<li class="selected">
+				<a href="Home.aspx">home</a>
+			</li>
+			<li>
+				<a href="Donor.aspx">Blood Donor</a>
+			</li>
+			<li>
+				<a href="Recipient.aspx">Blood Recipient</a>
+			</li>
+			
+			<li>
+				<a href="BBLogin.aspx">Blood Bank   </a>
+			</li>
+            <li>
+                <a href="Admin.aspx">Admin</a>
+            </li>
+            <li>
+                <a href="Contact.aspx">Contact Us</a>
+            </li>
+			
+		</ul>
+	</div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+	<div id="section">
+
+    
+		<%--<div>
+			
+        <div>
+             
+             
+        
+             
+		</div>
+			
+		
+	</div>--%>
+    </div>
+    </asp:ContentPlaceHolder>
+	
+    <div id="footer">
+		<div>
+			<p>
+				<span>2023 &copy; Life Support System.</span><a href="#" >Terms of Service</a> | <a href="#" >Privacy Policy</a>
+			</p>
+			<ul>
+				<li id="facebook">
+					<a href="http://www.facebook.com/">facebook</a>
+				</li>
+				<li id="twitter">
+					<a href="http://www.twitter.com/">twitter</a>
+				</li>
+				<li id="googleplus">
+					<a href="http://www.googleplus.com/">googleplus</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    </div>
+    </form>
+</body>
+</html>

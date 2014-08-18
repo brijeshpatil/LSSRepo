@@ -1,0 +1,248 @@
+
+
+@font-face {
+	font-family: 'Conv_Ubuntu-Light';
+	src: url('../fonts/Ubuntu-Light.eot');
+	src: url('../fonts/Ubuntu-Light.woff') format('woff'), url('../fonts/Ubuntu-Light.ttf') format('truetype'), url('../fonts/Ubuntu-Light.svg') format('svg');
+}
+body {
+	background: url(../images/bg-body.jpg) repeat;
+	font-family: 'Conv_Ubuntu-Light';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#header{
+	background: url(../images/bg-header.jpg) repeat-x;
+	margin: 0 150px 0 150px;
+	padding: 18px 0 0 ;
+    box-shadow: 10px 10px 5px #888888;
+}
+#header a.logo {
+	display: block;
+	height: 74px;
+	margin: 0 310px 22px;
+	
+	padding: 0;
+	width: 296px;
+}
+#header a.logo img {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    display: block;
+    height: 93px;
+    width: 423px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+#header ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 15px 0 22px;
+	text-align: center;
+	width: 960px;
+}
+#header ul li {
+	float: left;
+	list-style: none;
+	
+	padding: 0;
+    width: 155px;
+}
+#header ul li:first-child {
+	margin: 0 0 0 15px;
+}
+#header ul li a {
+	color: #588181;
+	display: block;
+	height: 37px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+    width: 154px;
+}
+#header ul li a:hover {
+	color: #254c4c;
+	background-color:Gray;
+}
+#header ul li a:active {
+	background: url(../images/bg-menu.png) no-repeat top center;
+}
+#header ul li a:active {
+	background: 	url(../images/dots.png) repeat-x left bottom;
+}
+#section {
+	/*background: url(../images/title.png) no-repeat center top;
+	*/
+    height: auto;
+	margin: 0 100px 65px 150px;
+	padding: 0;
+    width: 960px;
+    
+    
+}
+    
+    
+div .box
+{
+/* box-sizing:border-box; */
+/*-moz-box-sizing:border-box; /* Firefox */
+width:auto;
+height:auto;
+border:1em  red;
+float:left;
+}
+#section .uday
+   {
+       height: auto;
+       width : auto;
+       margin: auto; 
+    }
+/*#section > div {
+	margin: 200px 0 0 0;
+	padding: 0 0 0;
+	width: 415px;
+    height: 143px;
+}*/
+
+#section #left
+{
+    float:left;
+    height:auto;
+    margin:10px;
+    width:450px;
+}
+
+#section #right
+{
+    float:left;
+    height:auto;
+    margin:10px;
+    width:auto;
+}
+/*#section  div {
+	background: url(../images/bg-heading.png) repeat;
+	height: auto;
+	margin: 4px 0 0 10px;
+	padding: 33px 22px 33px 18px;
+	width: 460px;
+}*/
+#section  div h1 {
+	color: #94acb3;
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#section  div p {
+	color: #94acb3;
+	font-size: 16px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+    height: 197px;
+    width: 508px;
+}
+#section  div p a {
+	color: #94acb3;
+}
+#section  div p a:hover {
+	color: #386370;
+}
+#featured {
+	background: url(../images/bg-content.jpg) repeat;
+	margin: auto;
+	padding: 0;
+}
+
+#footer {
+/*	border-top: 2px solid #ffe600; */
+	margin: auto 150px 0 150px;
+	padding: 16px 0;
+}
+#footer div {
+	margin: auto auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#footer div {
+	margin: auto auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#footer div p {
+	color: #767676;
+	float: left;
+	font-size: 11px;
+	line-height: 27px;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+#footer div p span {
+	padding: 0 16px 0 0;
+}
+#footer div p a {
+	color: #767676;
+	text-decoration: none;
+}
+#footer div p a:hover {
+	color: #000;
+}
+#footer div ul {
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#footer div ul li {
+	float: left;
+	list-style: none;
+	margin: 0 12px 0 0;
+	padding: 0;
+}
+#footer div ul li a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	height: 27px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 27px;
+}
+#footer div ul #facebook a {
+	background-position: 0 0;
+}
+#footer div ul #facebook a:hover {
+	background-position: -32px 0;
+}
+#footer div ul #twitter a {
+	background-position: 0 -37px;
+}
+#footer div ul #twitter a:hover {
+	background-position: -32px -37px;
+}
+#footer div ul #googleplus a {
+	background-position: 0 -74px;
+}
+#footer div ul #googleplus a:hover {
+	background-position: -32px -74px;
+}
+#footer div ul #rss a {
+	background-position: 0 -111px;
+}
+#footer div ul #rss a:hover {
+	background-position: -32px -111px;
+}
